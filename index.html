@@ -19,17 +19,34 @@
 flex; flex-direction: column; justify-content:
 center; align-items: center; flex: 1; }
 </style>
+<link rel="stylesheet" href="button.css">
 </head>
 <body>
     <div class="container">
         <div class="column" id="column1">
             <h1 id="heading1">Hello</h1>
+                <div class="button" id="button"
+                <button type="button" class="button" onclick="changeColor1()">Change me</button>
+                    
+                    <script>
+                    function changeColor1() {
+                    heading1 = document.getElementById('heading1');
+                    heading1.style.color = "green";
+                    column1 = document.getElementById('column1');
+                    column1.style.color = "white";
+                    }
+                                          
+                    </script>
+                </div>
             <a>
-                <img src="Plush Robot yellow background 4 by 6.png" alt="plush robot" style="width:210px;height:200px;">
+                <img src="Plush Robot yellow background 4 by 6.png" alt="plush robot" style="width:210px;height:200px">
                 </a>
-            </div>
+        </div>
         <div class="column" id="column2">
-                <h1 id="heading2">World</h1>  
+            <h1 id="heading2">World</h1>  
+                <div class="button" id="button"
+                <button type="button" class="button">Change me</button>
+                </div>    
                 <a>
                     <img src="Yellow robot confused 4 by 6.png" alt="Confused robot" style="width:210px;height:200px;">
                     </a>              
