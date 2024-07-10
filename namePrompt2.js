@@ -1,5 +1,5 @@
 function namePrompt2() {
-                let result = window.prompt("What is your nick name?", "Name");
+                let result = window.prompt("What is your alias?", "Name");
                 let text
                
                 if (result === null) {
