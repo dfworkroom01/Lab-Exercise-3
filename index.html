@@ -25,11 +25,16 @@ center; align-items: center; flex: 1; }
     <div class="container">
         <div class="column" id="column1">
             <h1 id="heading1">Hello</h1>
+                <input type="button" value="What is your nick name?" 
+                onclick="namePrompt()"/>
+                <div id="result"></div>
+                <script src="namePrompt.js"></script>
+                
                 <div class="button" id="button"
                 <button type="button" class="button" onclick="changeColor1()">Change me</button>
                     
                     <script src="changeColor1.js"></script>
-                    
+                                        
         </div>
         <a>
         <img src="Plush Robot yellow background 4 by 6.png" alt="plush robot" style="width:210px;height:200px;position:fixed;bottom:0px;right:0px;left:0px;">
@@ -37,7 +42,12 @@ center; align-items: center; flex: 1; }
         </div>
         <div class="column" id="column2">
             <h1 id="heading2">World</h1>  
-                <div class="button" id="button"
+            <input type="button" value="What is your alias?" 
+            onclick="namePrompt2()"/>
+            <div id="result"></div>
+            <script src="namePrompt2.js"></script>
+            
+            <div class="button" id="button"
                 <button type="button" class="button" onclick="changeColor2()">Change me</button>
                     
                     <script src="changeColor2.js"></script>
